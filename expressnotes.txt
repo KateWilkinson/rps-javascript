@@ -1,0 +1,11 @@
+Some notes on config for Express.js
+
+1) use command npm init in the root of the directory you want to initialize Express in
+2) you'll be prompted to change set up - only change the entry point: to app.js (app.js will be your 'server' file)
+3) run command npm install express - this should install a load of node modules.
+4) create a .gitignore file and write /node_modules
+5) adjust folder structure to match this best practice - http://www.terlici.com/2014/08/25/best-practices-express-structure.html
+6) add an app.js file in the root - look at the app.js in this folder for set up
+7) adjust script links accordingly (nb - express knows to look for scripts and css in the public folder)
+8) in package.json, within the "scripts" tag, add "start" : "node app.js"
+9) in the command line, run npm start or node app.js
